@@ -1,0 +1,11 @@
+- [x] clarify the attention distribution method
+- [x] test the rumtime of att and proj
+- [x] get the confliction of the array read of pim and normal
+
+- [x] why the store take more time than load fix by #0aa6e6718a583962affbf5243b17970230a573b8
+- [ ] why stage B have no request
+- [ ] implement the pim start and finished event
+- [ ] implement the old version of add token
+- [ ] implement the new version of add token
+- [ ] test the influence of the memory layout
+- [ ] test the influence of pim and npu fetch

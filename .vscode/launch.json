@@ -1,0 +1,51 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) example",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/src/Simulator",
+            "args": [
+                "--config",
+                "./configs/systolic_ws_128x128_dev.json",
+                "--mem_config",
+                "./configs/memory_configs/neupims.json",
+                "--cli_config",
+                "./request-traces/clb/share-gpt2-bs512-ms7B-tp4-clb-0.csv",
+                "--model_config",
+                "./configs/model_configs/gpt3-7B.json",
+                "--sys_config",
+                "./configs/system_configs/sub-batch-on.json",
+                "--log_dir",
+                "experiment_logs/test"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "RUST_LOG",
+                    "value": "Debug"
+                }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build"
+        }
+    ]
+}

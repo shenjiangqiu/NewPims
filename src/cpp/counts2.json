@@ -1,0 +1,1515 @@
+{
+  "global_loads": 0,
+  "global_stores": 0,
+  "global_computes": 0,
+  "last_start_load_cycle": null,
+  "last_start_store_cycle": null,
+  "last_start_compute_cycle": null,
+  "last_idle_load_cycle": 789457,
+  "last_idle_store_cycle": 789490,
+  "last_idle_compute_cycle": 789486,
+  "load_idle_cycles_hist": {
+    "2": 1,
+    "16": 1,
+    "24": 1,
+    "29": 1,
+    "38": 1,
+    "39": 1,
+    "50": 1,
+    "61": 1,
+    "76": 1,
+    "100": 1,
+    "114": 1,
+    "115": 1,
+    "135": 1,
+    "137": 1,
+    "147": 1,
+    "157": 1,
+    "165": 1,
+    "212": 1,
+    "448": 1,
+    "10292": 1,
+    "10298": 1,
+    "10302": 1,
+    "10318": 1,
+    "31946": 1,
+    "39121": 1,
+    "39733": 1,
+    "39850": 1,
+    "39951": 1,
+    "39996": 1,
+    "40002": 1,
+    "40075": 1,
+    "40087": 1,
+    "44355": 1,
+    "47748": 1,
+    "76294": 1,
+    "183528": 1
+  },
+  "store_idle_cycles_hist": {
+    "2": 31,
+    "3": 1,
+    "13340": 1,
+    "45251": 1,
+    "47723": 1,
+    "152065": 1
+  },
+  "compute_idle_cycles_hist": {
+    "2": 1,
+    "6": 28,
+    "7": 1,
+    "8": 1,
+    "326": 1,
+    "13344": 1,
+    "45255": 1,
+    "47727": 1,
+    "152069": 1
+  },
+  "load_cycles_hist": {
+    "75": 1,
+    "92": 1,
+    "96": 1,
+    "102": 1,
+    "208": 1,
+    "258": 1,
+    "270": 1,
+    "311": 1,
+    "341": 1,
+    "343": 1,
+    "347": 1,
+    "349": 1,
+    "394": 1,
+    "460": 1,
+    "492": 1,
+    "558": 1,
+    "612": 1,
+    "716": 1,
+    "737": 1,
+    "743": 1,
+    "912": 1,
+    "1108": 1,
+    "1136": 1,
+    "1224": 1,
+    "1544": 1,
+    "1566": 1,
+    "1668": 1,
+    "1889": 1,
+    "1899": 1,
+    "1903": 1,
+    "1958": 1,
+    "2372": 1,
+    "2438": 1,
+    "2741": 1,
+    "2845": 1,
+    "8789": 1
+  },
+  "store_cycles_hist": {
+    "466": 1,
+    "480": 1,
+    "486": 1,
+    "623": 1,
+    "670": 1,
+    "749": 1,
+    "938": 1,
+    "971": 1,
+    "1558": 1,
+    "1664": 1,
+    "1878": 1,
+    "1925": 1,
+    "1995": 1,
+    "2012": 1,
+    "2024": 1,
+    "2446": 1,
+    "2486": 1,
+    "2777": 1,
+    "2870": 1,
+    "8816": 1,
+    "10391": 1,
+    "10392": 3,
+    "32151": 3,
+    "32200": 1,
+    "40343": 7,
+    "40591": 1
+  },
+  "compute_cycles_hist": {
+    "462": 1,
+    "476": 1,
+    "482": 1,
+    "614": 1,
+    "619": 1,
+    "666": 1,
+    "745": 1,
+    "967": 1,
+    "1554": 1,
+    "1660": 1,
+    "1874": 1,
+    "1921": 1,
+    "1989": 1,
+    "2008": 1,
+    "2020": 1,
+    "2442": 1,
+    "2482": 1,
+    "2773": 1,
+    "2866": 1,
+    "8812": 1,
+    "10387": 1,
+    "10388": 3,
+    "32147": 3,
+    "32196": 1,
+    "40339": 7,
+    "40587": 1
+  },
+  "accumulated_duration_load_cycle": 43496,
+  "accumulated_duration_store_cycle": 531046,
+  "accumulated_duration_compute_cycle": 530580,
+  "accumulated_idle_load_cycle": 745961,
+  "accumulated_idle_store_cycle": 258444,
+  "accumulated_idle_compute_cycle": 258906,
+  "event_vec": [
+    {
+      "StartLoadIdle": 0
+    },
+    {
+      "StartStoreIdle": 0
+    },
+    {
+      "StartComputeIdle": 0
+    },
+    {
+      "StartLoad": 2
+    },
+    {
+      "StartStore": 2
+    },
+    {
+      "StartCompute": 2
+    },
+    {
+      "EndLoadIdle": 2
+    },
+    {
+      "EndStoreIdle": 2
+    },
+    {
+      "EndComputeIdle": 2
+    },
+    {
+      "StartLoadIdle": 349
+    },
+    {
+      "EndLoad": 349
+    },
+    {
+      "StartComputeIdle": 478
+    },
+    {
+      "EndCompute": 478
+    },
+    {
+      "StartStoreIdle": 482
+    },
+    {
+      "EndStore": 482
+    },
+    {
+      "StartLoad": 484
+    },
+    {
+      "StartStore": 484
+    },
+    {
+      "StartCompute": 484
+    },
+    {
+      "EndLoadIdle": 484
+    },
+    {
+      "EndStoreIdle": 484
+    },
+    {
+      "EndComputeIdle": 484
+    },
+    {
+      "StartLoadIdle": 692
+    },
+    {
+      "EndLoad": 692
+    },
+    {
+      "StartComputeIdle": 32631
+    },
+    {
+      "EndCompute": 32631
+    },
+    {
+      "StartStoreIdle": 32635
+    },
+    {
+      "EndStore": 32635
+    },
+    {
+      "StageEnd": [
+        "A",
+        32637
+      ]
+    },
+    {
+      "StartLoad": 32638
+    },
+    {
+      "StartStore": 32638
+    },
+    {
+      "StartCompute": 32638
+    },
+    {
+      "EndLoadIdle": 32638
+    },
+    {
+      "EndStoreIdle": 32638
+    },
+    {
+      "EndComputeIdle": 32638
+    },
+    {
+      "StartLoadIdle": 33130
+    },
+    {
+      "EndLoad": 33130
+    },
+    {
+      "StartComputeIdle": 33252
+    },
+    {
+      "EndCompute": 33252
+    },
+    {
+      "StartStoreIdle": 33576
+    },
+    {
+      "EndStore": 33576
+    },
+    {
+      "StartLoad": 33578
+    },
+    {
+      "StartStore": 33578
+    },
+    {
+      "StartCompute": 33578
+    },
+    {
+      "EndLoadIdle": 33578
+    },
+    {
+      "EndStoreIdle": 33578
+    },
+    {
+      "EndComputeIdle": 33578
+    },
+    {
+      "StartLoadIdle": 34315
+    },
+    {
+      "EndLoad": 34315
+    },
+    {
+      "StartComputeIdle": 65774
+    },
+    {
+      "EndCompute": 65774
+    },
+    {
+      "StartStoreIdle": 65778
+    },
+    {
+      "EndStore": 65778
+    },
+    {
+      "StageEnd": [
+        "B",
+        217842
+      ]
+    },
+    {
+      "StartLoad": 217843
+    },
+    {
+      "StartStore": 217843
+    },
+    {
+      "StartCompute": 217843
+    },
+    {
+      "EndLoadIdle": 217843
+    },
+    {
+      "EndStoreIdle": 217843
+    },
+    {
+      "EndComputeIdle": 217843
+    },
+    {
+      "StartLoadIdle": 217935
+    },
+    {
+      "EndLoad": 217935
+    },
+    {
+      "StartComputeIdle": 228231
+    },
+    {
+      "EndCompute": 228231
+    },
+    {
+      "StartStoreIdle": 228235
+    },
+    {
+      "EndStore": 228235
+    },
+    {
+      "StartLoad": 228237
+    },
+    {
+      "StartStore": 228237
+    },
+    {
+      "StartCompute": 228237
+    },
+    {
+      "EndLoadIdle": 228237
+    },
+    {
+      "EndStoreIdle": 228237
+    },
+    {
+      "EndComputeIdle": 228237
+    },
+    {
+      "StartLoadIdle": 230140
+    },
+    {
+      "EndLoad": 230140
+    },
+    {
+      "StartComputeIdle": 230158
+    },
+    {
+      "EndCompute": 230158
+    },
+    {
+      "StartStoreIdle": 230162
+    },
+    {
+      "EndStore": 230162
+    },
+    {
+      "StartLoad": 230164
+    },
+    {
+      "StartStore": 230164
+    },
+    {
+      "StartCompute": 230164
+    },
+    {
+      "EndLoadIdle": 230164
+    },
+    {
+      "EndStoreIdle": 230164
+    },
+    {
+      "EndComputeIdle": 230164
+    },
+    {
+      "StartLoadIdle": 231832
+    },
+    {
+      "EndLoad": 231832
+    },
+    {
+      "StartComputeIdle": 232038
+    },
+    {
+      "EndCompute": 232038
+    },
+    {
+      "StartStoreIdle": 232042
+    },
+    {
+      "EndStore": 232042
+    },
+    {
+      "StartLoad": 232044
+    },
+    {
+      "StartStore": 232044
+    },
+    {
+      "StartCompute": 232044
+    },
+    {
+      "EndLoadIdle": 232044
+    },
+    {
+      "EndStoreIdle": 232044
+    },
+    {
+      "EndComputeIdle": 232044
+    },
+    {
+      "StartLoadIdle": 232787
+    },
+    {
+      "EndLoad": 232787
+    },
+    {
+      "StartComputeIdle": 272631
+    },
+    {
+      "EndCompute": 272631
+    },
+    {
+      "StartStoreIdle": 272635
+    },
+    {
+      "EndStore": 272635
+    },
+    {
+      "StartLoad": 272637
+    },
+    {
+      "StartStore": 272637
+    },
+    {
+      "StartCompute": 272637
+    },
+    {
+      "EndLoadIdle": 272637
+    },
+    {
+      "EndStoreIdle": 272637
+    },
+    {
+      "EndComputeIdle": 272637
+    },
+    {
+      "StartLoadIdle": 272948
+    },
+    {
+      "EndLoad": 272948
+    },
+    {
+      "StartComputeIdle": 273099
+    },
+    {
+      "EndCompute": 273099
+    },
+    {
+      "StartStoreIdle": 273103
+    },
+    {
+      "EndStore": 273103
+    },
+    {
+      "StartLoad": 273105
+    },
+    {
+      "StartStore": 273105
+    },
+    {
+      "StartCompute": 273105
+    },
+    {
+      "EndLoadIdle": 273105
+    },
+    {
+      "EndStoreIdle": 273105
+    },
+    {
+      "EndComputeIdle": 273105
+    },
+    {
+      "StartLoadIdle": 274329
+    },
+    {
+      "EndLoad": 274329
+    },
+    {
+      "StartComputeIdle": 313444
+    },
+    {
+      "EndCompute": 313444
+    },
+    {
+      "StartStoreIdle": 313448
+    },
+    {
+      "EndStore": 313448
+    },
+    {
+      "StartLoad": 313450
+    },
+    {
+      "StartStore": 313450
+    },
+    {
+      "StartCompute": 313450
+    },
+    {
+      "EndLoadIdle": 313450
+    },
+    {
+      "EndStoreIdle": 313450
+    },
+    {
+      "EndComputeIdle": 313450
+    },
+    {
+      "StartLoadIdle": 316191
+    },
+    {
+      "EndLoad": 316191
+    },
+    {
+      "StartComputeIdle": 316223
+    },
+    {
+      "EndCompute": 316223
+    },
+    {
+      "StartStoreIdle": 316227
+    },
+    {
+      "EndStore": 316227
+    },
+    {
+      "StartLoad": 316229
+    },
+    {
+      "StartStore": 316229
+    },
+    {
+      "StartCompute": 316229
+    },
+    {
+      "EndLoadIdle": 316229
+    },
+    {
+      "EndStoreIdle": 316229
+    },
+    {
+      "EndComputeIdle": 316229
+    },
+    {
+      "StartLoadIdle": 318601
+    },
+    {
+      "EndLoad": 318601
+    },
+    {
+      "StartComputeIdle": 318671
+    },
+    {
+      "EndCompute": 318671
+    },
+    {
+      "StartStoreIdle": 318675
+    },
+    {
+      "EndStore": 318675
+    },
+    {
+      "StartLoad": 318677
+    },
+    {
+      "StartStore": 318677
+    },
+    {
+      "StartCompute": 318677
+    },
+    {
+      "EndLoadIdle": 318677
+    },
+    {
+      "EndStoreIdle": 318677
+    },
+    {
+      "EndComputeIdle": 318677
+    },
+    {
+      "StartLoadIdle": 319813
+    },
+    {
+      "EndLoad": 319813
+    },
+    {
+      "StartComputeIdle": 350824
+    },
+    {
+      "EndCompute": 350824
+    },
+    {
+      "StartStoreIdle": 350828
+    },
+    {
+      "EndStore": 350828
+    },
+    {
+      "StageEnd": [
+        "C",
+        364167
+      ]
+    },
+    {
+      "StartLoad": 364168
+    },
+    {
+      "StartStore": 364168
+    },
+    {
+      "StartCompute": 364168
+    },
+    {
+      "EndLoadIdle": 364168
+    },
+    {
+      "EndStoreIdle": 364168
+    },
+    {
+      "EndComputeIdle": 364168
+    },
+    {
+      "StartLoadIdle": 364270
+    },
+    {
+      "EndLoad": 364270
+    },
+    {
+      "StartComputeIdle": 374556
+    },
+    {
+      "EndCompute": 374556
+    },
+    {
+      "StartStoreIdle": 374560
+    },
+    {
+      "EndStore": 374560
+    },
+    {
+      "StartLoad": 374562
+    },
+    {
+      "StartStore": 374562
+    },
+    {
+      "StartCompute": 374562
+    },
+    {
+      "EndLoadIdle": 374562
+    },
+    {
+      "EndStoreIdle": 374562
+    },
+    {
+      "EndComputeIdle": 374562
+    },
+    {
+      "StartLoadIdle": 383351
+    },
+    {
+      "EndLoad": 383351
+    },
+    {
+      "StartComputeIdle": 383374
+    },
+    {
+      "EndCompute": 383374
+    },
+    {
+      "StartStoreIdle": 383378
+    },
+    {
+      "EndStore": 383378
+    },
+    {
+      "StartLoad": 383380
+    },
+    {
+      "StartStore": 383380
+    },
+    {
+      "StartCompute": 383380
+    },
+    {
+      "EndLoadIdle": 383380
+    },
+    {
+      "EndStoreIdle": 383380
+    },
+    {
+      "EndComputeIdle": 383380
+    },
+    {
+      "StartLoadIdle": 384924
+    },
+    {
+      "EndLoad": 384924
+    },
+    {
+      "StartComputeIdle": 384934
+    },
+    {
+      "EndCompute": 384934
+    },
+    {
+      "StartStoreIdle": 384938
+    },
+    {
+      "EndStore": 384938
+    },
+    {
+      "StartLoad": 384940
+    },
+    {
+      "StartStore": 384940
+    },
+    {
+      "StartCompute": 384940
+    },
+    {
+      "EndLoadIdle": 384940
+    },
+    {
+      "EndStoreIdle": 384940
+    },
+    {
+      "EndComputeIdle": 384940
+    },
+    {
+      "StartLoadIdle": 385552
+    },
+    {
+      "EndLoad": 385552
+    },
+    {
+      "StartComputeIdle": 425279
+    },
+    {
+      "EndCompute": 425279
+    },
+    {
+      "StartStoreIdle": 425283
+    },
+    {
+      "EndStore": 425283
+    },
+    {
+      "StartLoad": 425285
+    },
+    {
+      "StartStore": 425285
+    },
+    {
+      "StartCompute": 425285
+    },
+    {
+      "EndLoadIdle": 425285
+    },
+    {
+      "EndStoreIdle": 425285
+    },
+    {
+      "EndComputeIdle": 425285
+    },
+    {
+      "StartLoadIdle": 426851
+    },
+    {
+      "EndLoad": 426851
+    },
+    {
+      "StartComputeIdle": 426945
+    },
+    {
+      "EndCompute": 426945
+    },
+    {
+      "StartStoreIdle": 426949
+    },
+    {
+      "EndStore": 426949
+    },
+    {
+      "StartLoad": 426951
+    },
+    {
+      "StartStore": 426951
+    },
+    {
+      "StartCompute": 426951
+    },
+    {
+      "EndLoadIdle": 426951
+    },
+    {
+      "EndStoreIdle": 426951
+    },
+    {
+      "EndComputeIdle": 426951
+    },
+    {
+      "StartLoadIdle": 427300
+    },
+    {
+      "EndLoad": 427300
+    },
+    {
+      "StartComputeIdle": 467290
+    },
+    {
+      "EndCompute": 467290
+    },
+    {
+      "StartStoreIdle": 467294
+    },
+    {
+      "EndStore": 467294
+    },
+    {
+      "StartLoad": 467296
+    },
+    {
+      "StartStore": 467296
+    },
+    {
+      "StartCompute": 467296
+    },
+    {
+      "EndLoadIdle": 467296
+    },
+    {
+      "EndStoreIdle": 467296
+    },
+    {
+      "EndComputeIdle": 467296
+    },
+    {
+      "StartLoadIdle": 469734
+    },
+    {
+      "EndLoad": 469734
+    },
+    {
+      "StartComputeIdle": 469778
+    },
+    {
+      "EndCompute": 469778
+    },
+    {
+      "StartStoreIdle": 469782
+    },
+    {
+      "EndStore": 469782
+    },
+    {
+      "StartLoad": 469784
+    },
+    {
+      "StartStore": 469784
+    },
+    {
+      "StartCompute": 469784
+    },
+    {
+      "EndLoadIdle": 469784
+    },
+    {
+      "EndStoreIdle": 469784
+    },
+    {
+      "EndComputeIdle": 469784
+    },
+    {
+      "StartLoadIdle": 471683
+    },
+    {
+      "EndLoad": 471683
+    },
+    {
+      "StartComputeIdle": 471792
+    },
+    {
+      "EndCompute": 471792
+    },
+    {
+      "StartStoreIdle": 471796
+    },
+    {
+      "EndStore": 471796
+    },
+    {
+      "StartLoad": 471798
+    },
+    {
+      "StartStore": 471798
+    },
+    {
+      "StartCompute": 471798
+    },
+    {
+      "EndLoadIdle": 471798
+    },
+    {
+      "EndStoreIdle": 471798
+    },
+    {
+      "EndComputeIdle": 471798
+    },
+    {
+      "StartLoadIdle": 472906
+    },
+    {
+      "EndLoad": 472906
+    },
+    {
+      "StartComputeIdle": 503945
+    },
+    {
+      "EndCompute": 503945
+    },
+    {
+      "StartStoreIdle": 503949
+    },
+    {
+      "EndStore": 503949
+    },
+    {
+      "StageEnd": [
+        "D",
+        549199
+      ]
+    },
+    {
+      "StartLoad": 549200
+    },
+    {
+      "StartStore": 549200
+    },
+    {
+      "StartCompute": 549200
+    },
+    {
+      "EndLoadIdle": 549200
+    },
+    {
+      "EndStoreIdle": 549200
+    },
+    {
+      "EndComputeIdle": 549200
+    },
+    {
+      "StartLoadIdle": 549296
+    },
+    {
+      "EndLoad": 549296
+    },
+    {
+      "StartComputeIdle": 559588
+    },
+    {
+      "EndCompute": 559588
+    },
+    {
+      "StartStoreIdle": 559592
+    },
+    {
+      "EndStore": 559592
+    },
+    {
+      "StartLoad": 559594
+    },
+    {
+      "StartStore": 559594
+    },
+    {
+      "StartCompute": 559594
+    },
+    {
+      "EndLoadIdle": 559594
+    },
+    {
+      "EndStoreIdle": 559594
+    },
+    {
+      "EndComputeIdle": 559594
+    },
+    {
+      "StartLoadIdle": 561552
+    },
+    {
+      "EndLoad": 561552
+    },
+    {
+      "StartComputeIdle": 561583
+    },
+    {
+      "EndCompute": 561583
+    },
+    {
+      "StartStoreIdle": 561589
+    },
+    {
+      "EndStore": 561589
+    },
+    {
+      "StartLoad": 561591
+    },
+    {
+      "StartStore": 561591
+    },
+    {
+      "StartCompute": 561591
+    },
+    {
+      "EndLoadIdle": 561591
+    },
+    {
+      "EndStoreIdle": 561591
+    },
+    {
+      "EndComputeIdle": 561591
+    },
+    {
+      "StartLoadIdle": 563480
+    },
+    {
+      "EndLoad": 563480
+    },
+    {
+      "StartComputeIdle": 563611
+    },
+    {
+      "EndCompute": 563611
+    },
+    {
+      "StartStoreIdle": 563615
+    },
+    {
+      "EndStore": 563615
+    },
+    {
+      "StartLoad": 563617
+    },
+    {
+      "StartStore": 563617
+    },
+    {
+      "StartCompute": 563617
+    },
+    {
+      "EndLoadIdle": 563617
+    },
+    {
+      "EndStoreIdle": 563617
+    },
+    {
+      "EndComputeIdle": 563617
+    },
+    {
+      "StartLoadIdle": 564011
+    },
+    {
+      "EndLoad": 564011
+    },
+    {
+      "StartComputeIdle": 603956
+    },
+    {
+      "EndCompute": 603956
+    },
+    {
+      "StartStoreIdle": 603960
+    },
+    {
+      "EndStore": 603960
+    },
+    {
+      "StartLoad": 603962
+    },
+    {
+      "StartStore": 603962
+    },
+    {
+      "StartCompute": 603962
+    },
+    {
+      "EndLoadIdle": 603962
+    },
+    {
+      "EndStoreIdle": 603962
+    },
+    {
+      "EndComputeIdle": 603962
+    },
+    {
+      "StartLoadIdle": 604422
+    },
+    {
+      "EndLoad": 604422
+    },
+    {
+      "StartComputeIdle": 604581
+    },
+    {
+      "EndCompute": 604581
+    },
+    {
+      "StartStoreIdle": 604585
+    },
+    {
+      "EndStore": 604585
+    },
+    {
+      "StartLoad": 604587
+    },
+    {
+      "StartStore": 604587
+    },
+    {
+      "StartCompute": 604587
+    },
+    {
+      "EndLoadIdle": 604587
+    },
+    {
+      "EndStoreIdle": 604587
+    },
+    {
+      "EndComputeIdle": 604587
+    },
+    {
+      "StartLoadIdle": 604930
+    },
+    {
+      "EndLoad": 604930
+    },
+    {
+      "StartComputeIdle": 644926
+    },
+    {
+      "EndCompute": 644926
+    },
+    {
+      "StartStoreIdle": 644930
+    },
+    {
+      "EndStore": 644930
+    },
+    {
+      "StartLoad": 644932
+    },
+    {
+      "StartStore": 644932
+    },
+    {
+      "StartCompute": 644932
+    },
+    {
+      "EndLoadIdle": 644932
+    },
+    {
+      "EndStoreIdle": 644932
+    },
+    {
+      "EndComputeIdle": 644932
+    },
+    {
+      "StartLoadIdle": 647777
+    },
+    {
+      "EndLoad": 647777
+    },
+    {
+      "StartComputeIdle": 647798
+    },
+    {
+      "EndCompute": 647798
+    },
+    {
+      "StartStoreIdle": 647802
+    },
+    {
+      "EndStore": 647802
+    },
+    {
+      "StageEnd": [
+        "E",
+        695524
+      ]
+    },
+    {
+      "StartLoad": 695525
+    },
+    {
+      "StartStore": 695525
+    },
+    {
+      "StartCompute": 695525
+    },
+    {
+      "EndLoadIdle": 695525
+    },
+    {
+      "EndStoreIdle": 695525
+    },
+    {
+      "EndComputeIdle": 695525
+    },
+    {
+      "StartLoadIdle": 695600
+    },
+    {
+      "EndLoad": 695600
+    },
+    {
+      "StartComputeIdle": 705912
+    },
+    {
+      "EndCompute": 705912
+    },
+    {
+      "StartStoreIdle": 705916
+    },
+    {
+      "EndStore": 705916
+    },
+    {
+      "StartLoad": 705918
+    },
+    {
+      "StartStore": 705918
+    },
+    {
+      "StartCompute": 705918
+    },
+    {
+      "EndLoadIdle": 705918
+    },
+    {
+      "EndStoreIdle": 705918
+    },
+    {
+      "EndComputeIdle": 705918
+    },
+    {
+      "StartLoadIdle": 706830
+    },
+    {
+      "EndLoad": 706830
+    },
+    {
+      "StartComputeIdle": 706885
+    },
+    {
+      "EndCompute": 706885
+    },
+    {
+      "StartStoreIdle": 706889
+    },
+    {
+      "EndStore": 706889
+    },
+    {
+      "StartLoad": 706891
+    },
+    {
+      "StartStore": 706891
+    },
+    {
+      "StartCompute": 706891
+    },
+    {
+      "EndLoadIdle": 706891
+    },
+    {
+      "EndStoreIdle": 706891
+    },
+    {
+      "EndComputeIdle": 706891
+    },
+    {
+      "StartLoadIdle": 707449
+    },
+    {
+      "EndLoad": 707449
+    },
+    {
+      "StartComputeIdle": 707557
+    },
+    {
+      "EndCompute": 707557
+    },
+    {
+      "StartStoreIdle": 707561
+    },
+    {
+      "EndStore": 707561
+    },
+    {
+      "StartLoad": 707563
+    },
+    {
+      "StartStore": 707563
+    },
+    {
+      "StartCompute": 707563
+    },
+    {
+      "EndLoadIdle": 707563
+    },
+    {
+      "EndStoreIdle": 707563
+    },
+    {
+      "EndComputeIdle": 707563
+    },
+    {
+      "StartLoadIdle": 707833
+    },
+    {
+      "EndLoad": 707833
+    },
+    {
+      "StartComputeIdle": 747902
+    },
+    {
+      "EndCompute": 747902
+    },
+    {
+      "StartStoreIdle": 747906
+    },
+    {
+      "EndStore": 747906
+    },
+    {
+      "StartLoad": 747908
+    },
+    {
+      "StartStore": 747908
+    },
+    {
+      "StartCompute": 747908
+    },
+    {
+      "EndLoadIdle": 747908
+    },
+    {
+      "EndStoreIdle": 747908
+    },
+    {
+      "EndComputeIdle": 747908
+    },
+    {
+      "StartLoadIdle": 748249
+    },
+    {
+      "EndLoad": 748249
+    },
+    {
+      "StartComputeIdle": 748390
+    },
+    {
+      "EndCompute": 748390
+    },
+    {
+      "StartStoreIdle": 748394
+    },
+    {
+      "EndStore": 748394
+    },
+    {
+      "StartLoad": 748396
+    },
+    {
+      "StartStore": 748396
+    },
+    {
+      "StartCompute": 748396
+    },
+    {
+      "EndLoadIdle": 748396
+    },
+    {
+      "EndStoreIdle": 748396
+    },
+    {
+      "EndComputeIdle": 748396
+    },
+    {
+      "StartLoadIdle": 748654
+    },
+    {
+      "EndLoad": 748654
+    },
+    {
+      "StartComputeIdle": 788735
+    },
+    {
+      "EndCompute": 788735
+    },
+    {
+      "StartStoreIdle": 788739
+    },
+    {
+      "EndStore": 788739
+    },
+    {
+      "StartLoad": 788741
+    },
+    {
+      "StartStore": 788741
+    },
+    {
+      "StartCompute": 788741
+    },
+    {
+      "EndLoadIdle": 788741
+    },
+    {
+      "EndStoreIdle": 788741
+    },
+    {
+      "EndComputeIdle": 788741
+    },
+    {
+      "StartLoadIdle": 789457
+    },
+    {
+      "EndLoad": 789457
+    },
+    {
+      "StartComputeIdle": 789486
+    },
+    {
+      "EndCompute": 789486
+    },
+    {
+      "StartStoreIdle": 789490
+    },
+    {
+      "EndStore": 789490
+    },
+    {
+      "StageEnd": [
+        "F",
+        789492
+      ]
+    }
+  ],
+  "last_cycle": 789493,
+  "all_loads": 175665,
+  "all_stores": 129126,
+  "all_computes": 29696
+}

@@ -1,0 +1,70 @@
+{
+  "global_loads": 0,
+  "global_stores": 0,
+  "global_computes": 0,
+  "last_start_load_cycle": null,
+  "last_start_store_cycle": null,
+  "last_start_compute_cycle": null,
+  "last_idle_load_cycle": 4,
+  "last_idle_store_cycle": 5,
+  "last_idle_compute_cycle": 1,
+  "load_idle_cycles_hist": {
+    "1": 1
+  },
+  "store_idle_cycles_hist": {
+    "1": 1
+  },
+  "compute_idle_cycles_hist": {},
+  "load_cycles_hist": {
+    "2": 1
+  },
+  "store_cycles_hist": {
+    "3": 1
+  },
+  "compute_cycles_hist": {},
+  "accumulated_duration_load_cycle": 2,
+  "accumulated_duration_store_cycle": 3,
+  "accumulated_duration_compute_cycle": 0,
+  "accumulated_idle_load_cycle": 1,
+  "accumulated_idle_store_cycle": 1,
+  "accumulated_idle_compute_cycle": 0,
+  "event_vec": [
+    {
+      "StartLoadIdle": 1
+    },
+    {
+      "StartStoreIdle": 1
+    },
+    {
+      "StartComputeIdle": 1
+    },
+    {
+      "StartLoad": 2
+    },
+    {
+      "StartStore": 2
+    },
+    {
+      "EndLoadIdle": 2
+    },
+    {
+      "EndStoreIdle": 2
+    },
+    {
+      "StartLoadIdle": 4
+    },
+    {
+      "EndLoad": 4
+    },
+    {
+      "StartStoreIdle": 5
+    },
+    {
+      "EndStore": 5
+    }
+  ],
+  "last_cycle": 6,
+  "all_loads": 1,
+  "all_stores": 1,
+  "all_computes": 0
+}

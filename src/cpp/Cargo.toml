@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "src/rust/neupimrust",
+    "src/rust/neupimsim",
+    "rust/neupims_main",
+]
+
+[workspace.dependencies]
+lazy_static = "1.5.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0.128"
+smallvec = "1.13.2"
+toml = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+neupimrust = { path = "src/rust/neupimrust" }
+cbindgen = "0.27"
+clap = "4.5.20"
+derive_more = "1.0.0"
+cxx = '1'
+cxx-build = '1'

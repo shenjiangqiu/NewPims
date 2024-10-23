@@ -1,0 +1,4 @@
+fast_read = false
+fast_icnt = false
+no_conflict_act_to_gact = false
+no_conflict_gact_to_act = false

@@ -1,0 +1,8 @@
+[requires]
+boost/1.86.0
+robin-hood-hashing/3.11.5
+spdlog/1.14.0
+nlohmann_json/3.11.3
+[generators]
+CMakeDeps
+CMakeToolchain
