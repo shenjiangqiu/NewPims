@@ -3,14 +3,15 @@
 #include "allocator/AddressAllocator.h"
 #include "helper/CommandLineParser.h"
 #include "operations/Operation.h"
+#include "new_pims/src/lib.rs.h"
 namespace po = boost::program_options;
 
-int _main(int argc, char **argv);
 
 
 
 int _main(int argc, char **argv)
 {
+    hello_rust();
     // parse command line argumnet
     spdlog::info("start _main");
     spdlog::info("argc: {}", argc);

@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) example",
+            "name": "(gdb) new_pims",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/src/Simulator",
+            "program": "/home/sjq/.cargo/target/debug/new_pims",
             "args": [
                 "--config",
                 "./configs/systolic_ws_128x128_dev.json",

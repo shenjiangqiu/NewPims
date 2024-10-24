@@ -1,6 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
     "files.associations": {
-        "utility": "cpp"
+        "utility": "cpp",
+        "cstdint": "cpp"
     }
 }

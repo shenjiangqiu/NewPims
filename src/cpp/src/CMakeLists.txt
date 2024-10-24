@@ -29,7 +29,7 @@ find_package(spdlog REQUIRED)
 find_package(nlohmann_json REQUIRED)
 
 # Add include directories and link libraries for the lib
-target_include_directories(${LIB_NAME}_lib PUBLIC ${CMAKE_SOURCE_DIR}/src/)
+target_include_directories(${LIB_NAME}_lib PUBLIC ${CMAKE_SOURCE_DIR}/src/ /home/sjq/.cargo/target/cxxbridge /home/sjq/git/NewPims/include)
 
 # Link external libraries to the library
 target_link_libraries(${LIB_NAME}_lib PUBLIC robin_hood::robin_hood boost::boost spdlog::spdlog nlohmann_json::nlohmann_json dramsim3 booksim2)

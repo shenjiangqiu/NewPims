@@ -39,7 +39,7 @@ MatMul::MatMul(std::string name, std::vector<Ptr<NPUTensor>> weights)
 
     // xxx: currently, it always shows better performance if _is_transposed is
     // true.
-    _is_transposed = true;
+    // _is_transposed = true;
 }
 
 MatMul::MatMul(std::string name) : Operation(name) { _inputs.resize(2); }
@@ -164,13 +164,13 @@ Tile MatMul::initialize_instructions(uint32_t B, uint32_t M, uint32_t K,
     auto weight_tensor = std::static_pointer_cast<NPUTensor>(_inputs[1]);
     auto output_tensor = std::static_pointer_cast<NPUTensor>(_outputs[0]);
 
-    if (_is_transposed)
-    {
-        std::swap(activation_tensor, weight_tensor);
-        activation_tensor->set_transposed();
-        weight_tensor->set_transposed();
-        output_tensor->set_transposed();
-    }
+    // if (_is_transposed)
+    // {
+    //     std::swap(activation_tensor, weight_tensor);
+    //     activation_tensor->set_transposed();
+    //     weight_tensor->set_transposed();
+    //     output_tensor->set_transposed();
+    // }
 
     // In MHA, calculating logit score or a uses 3D * 3D matrix multiplications.
     //  for exmaple, (n,t,dk)@(n,dk,t)
@@ -466,12 +466,12 @@ Tile MatMul::initialize_instructions(uint32_t B, uint32_t M, uint32_t K,
         }
     }
 
-    if (_is_transposed)
-    {
-        activation_tensor->unset_transposed();
-        weight_tensor->unset_transposed();
-        output_tensor->unset_transposed();
-    }
+    // if (_is_transposed)
+    // {
+    //     activation_tensor->unset_transposed();
+    //     weight_tensor->unset_transposed();
+    //     output_tensor->unset_transposed();
+    // }
 
     // spdlog::info("{} instructions generated from tile {}",
     // t.instructions.size(), t.optype); spdlog::info("outer loop {}, inner loop
@@ -531,11 +531,11 @@ void MatMul::calculate_loops()
         *max_el = ((*max_el) & 1) + ((*max_el) >> 1); // ceil(*max_el / 2)
     }
 
-    if (_is_transposed)
-    {
-        std::reverse(_inner_loop.begin(), _inner_loop.end());
-        std::reverse(_outer_loop.begin(), _outer_loop.end());
-    }
+    // if (_is_transposed)
+    // {
+    //     std::reverse(_inner_loop.begin(), _inner_loop.end());
+    //     std::reverse(_outer_loop.begin(), _outer_loop.end());
+    // }
     spdlog::info("MatMul inner loop: {}, outer loop: {}", _inner_loop,
                  _outer_loop);
     // todo: if _inner_loop cannot fill the sram, extra batching is needed for
