@@ -126,7 +126,6 @@ addr_type NPUTensor::get_addr(std::vector<uint32_t> indexes) {
             throw std::runtime_error("Invalid address");
         }
     }
-    return 0;
 
     if (indexes.size() <= 2) {  // bias, wgt
         return _inners[0]->get_addr(indexes);

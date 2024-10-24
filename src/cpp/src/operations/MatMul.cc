@@ -144,9 +144,12 @@ Tile MatMul::initialize_instructions(uint32_t B, uint32_t M, uint32_t K,
 
     // base on the inner loop, initialize instructions
     // _inner_loop means L2 tile size
-    auto m_inner = _inner_loop[0]; // M-axis L2 tile size
-    auto k_inner = _inner_loop[1]; // K-axis L2 tile size
-    auto n_inner = _inner_loop[2]; // N-axis L2 tile size
+    // the batch size
+    auto m_inner = _inner_loop[0];
+    // the input channel
+    auto k_inner = _inner_loop[1];
+    // the output channel
+    auto n_inner = _inner_loop[2];
 
     auto m_outer_offset = m_inner * M; // M-axis L2 tile idx
     auto k_outer_offset = k_inner * K; // K-axis L2 tile idx
